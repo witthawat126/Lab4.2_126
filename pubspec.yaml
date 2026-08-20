@@ -1,0 +1,17 @@
+name: flutter_lab4_126
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/      # สร้างโฟลเดอร์นี้ไว้ใส่รูปสัตว์เลี้ยง
