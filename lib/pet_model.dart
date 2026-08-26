@@ -4,14 +4,14 @@ class Pet {
   final String name;
   final PetType type;
   final int age;
-  final double weight; // เพิ่มบรรทัดนี้
+  final double weight;
   final String imagePath;
 
   Pet({
     required this.name, 
     required this.type, 
     required this.age, 
-    required this.weight, // เพิ่มบรรทัดนี้
+    required this.weight,
     required this.imagePath
   });
 }

@@ -136,7 +136,7 @@ class _PetFormPageState extends State<PetFormPage> {
                       ),
                       const SizedBox(height: 10),
                       DropdownButtonFormField<PetType>(
-                        value: _selectedType,
+                        initialValue: _selectedType,
                         decoration: const InputDecoration(labelText: 'ประเภท'),
                         items: PetType.values.map((type) {
                           return DropdownMenuItem(value: type, child: Text(type.name.toUpperCase()));
